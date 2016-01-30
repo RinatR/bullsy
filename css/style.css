@@ -23,7 +23,7 @@ img {
 	clear: both;
 }
 
-h1, h2, p {
+h1, h2, h3 p {
 	margin: 0;
 	padding: 0;
 }
@@ -128,13 +128,12 @@ h1, h2, p {
 	display: block;	
 }
 
-.intro-image {
+.intro-image {	
 	padding: 82px 0;
 	padding-left: 90px; 
-	height: 520px;
-	background: 
-	url("../img/buller-logo.png") no-repeat 100% 50%,
-	url("../img/intro-bg.png") no-repeat 0 0;
+	margin-bottom: 40px;	
+	height: 356px;
+	background: url("../img/intro-bg.png") no-repeat 0 0;
 }
 
 .shoes-type {
@@ -148,3 +147,91 @@ h1, h2, p {
 	list-style: none;
 	color: #ffffff;
 }
+
+.features {
+	font-size: 0;
+	margin-bottom: 40px;
+}
+
+.feature-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 370px;
+	margin-right: 35px;
+	padding: 25px 0;
+	font-family: "Oswald", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #252525;
+	background-color: #f5f6f1;
+}
+
+.feature-item:last-child {
+	margin-right: 0;
+}
+
+.feature-title {	
+	margin-bottom: 10px;
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.red-mark {
+	color: #f56d6b;
+}
+
+.shoes-categories {
+	background-color: #f5f6f1; 
+}
+
+.section-header {
+	margin-bottom: 40px;
+	font-family: "Oswald", "Arial", sans-serif;
+	font-size: 30px;
+	line-height: 37px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	color: #2e2828;
+}
+
+.shoes-categories-list {
+	font-size: 0;
+}
+
+.shoes-categories-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 380px;
+	margin-right: 20px;
+	font-family: "Raleway", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-style: italic;
+	background-color: #ffffff;
+}
+
+.shoes-categories-item:last-child {
+	margin-right: 0;
+}
+
+.shoes-categories-image {
+	width: 380px;
+	height: 352px;
+}
+
+.shoes-categories-item:first-child .shoes-categories-image {		
+	background: url("../img/cat-1.jpg") no-repeat 0 -140px;
+}
+
+.shoes-categories-item:nth-child(2) .shoes-categories-image {		
+	background: url("../img/cat-2.jpg") no-repeat 0 0;
+}
+
+.shoes-categories-item:last-child .shoes-categories-image {		
+	background: url("../img/cat-3.jpg") no-repeat -40px 0;
+}
+
