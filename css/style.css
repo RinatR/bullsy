@@ -1,0 +1,52 @@
+body {
+	max-width: 1600px;
+	font-family: "Raleway", "Arial", sans-serif;
+	font-size: 18px;
+	font-weight: 500;	
+	line-height: 25px;
+	color: #000000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.layout-center {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.header-top {
+	padding: 12px 0;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.contacts {
+	float: left;
+	width: 556px;
+}
+
+.top-nav {
+	float: right;
+	width: 589px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.top-nav a {
+	margin-right: 27px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.header-bottom {
+	background-color: #f8f8f8;
+}
