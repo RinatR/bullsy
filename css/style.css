@@ -1,5 +1,5 @@
 body {
-	max-width: 1600px;
+	min-width: 1600px;
 	font-family: "Raleway", "Arial", sans-serif;
 	font-size: 18px;
 	font-weight: 500;	
@@ -23,7 +23,7 @@ img {
 	clear: both;
 }
 
-h1, h2, h3 p {
+h1, h2, h3, p {
 	margin: 0;
 	padding: 0;
 }
@@ -47,14 +47,19 @@ h1, h2, h3 p {
 }
 
 .top-nav a {
+	display: inline-block;
+	vertical-align: middle;
 	margin-right: 27px;
 	text-decoration: none;
 	color: #000000;
 }
 
+.top-nav a:last-child {
+	margin-right: 0;
+}
+
 .header-bottom {
-	padding: 55px 0;
-	margin-bottom: 40px;
+	padding: 55px 0;	
 	font-size: 0;
 	background-color: #f8f8f8;
 }
@@ -128,6 +133,10 @@ h1, h2, h3 p {
 	display: block;	
 }
 
+.section {
+	padding: 40px 0;
+}
+
 .intro-image {	
 	padding: 82px 0;
 	padding-left: 90px; 
@@ -149,8 +158,7 @@ h1, h2, h3 p {
 }
 
 .features {
-	font-size: 0;
-	margin-bottom: 40px;
+	font-size: 0;	
 }
 
 .feature-item {
@@ -187,8 +195,8 @@ h1, h2, h3 p {
 	background-color: #f5f6f1; 
 }
 
-.section-header {
-	margin-bottom: 40px;
+.section-header {	
+	padding-bottom: 25px; 	
 	font-family: "Oswald", "Arial", sans-serif;
 	font-size: 30px;
 	line-height: 37px;
@@ -196,6 +204,32 @@ h1, h2, h3 p {
 	text-transform: uppercase;
 	text-align: center;
 	color: #2e2828;
+}
+
+.section-header:after {
+	content: "";	
+  position: relative;
+  top: -30px;
+  z-index: 1;
+  display: block;
+  border-bottom: 3px solid #463f3a; 
+}
+
+.section-header:before {
+	content: "";	
+  position: relative;
+  top: 20px;
+  z-index: 1;
+  display: block;
+  border-bottom: 1px solid #463f3a; 
+}
+
+.section-title {
+	display: inline;	
+	position: relative;
+	z-index: 2;
+	padding: 0 12px;
+	background-color: #f5f6f1;
 }
 
 .shoes-categories-list {
@@ -209,8 +243,8 @@ h1, h2, h3 p {
 	margin-right: 20px;
 	font-family: "Raleway", "Arial", sans-serif;
 	font-size: 16px;
-	line-height: 24px;
-	font-style: italic;
+	font-weight: 500;
+	line-height: 24px;	
 	background-color: #ffffff;
 }
 
@@ -221,6 +255,31 @@ h1, h2, h3 p {
 .shoes-categories-image {
 	width: 380px;
 	height: 352px;
+}
+
+.shoes-categories-info {
+	padding: 17px;
+	padding-bottom: 0;
+}
+
+.shoes-categories-title {
+	margin-bottom: 14px;
+	font-family: "Oswald", "Arial", sans-serif;
+	font-size: 30px;
+	line-height: 37px;	
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.shoes-categories-text {
+	font-style: italic;	
+}
+
+.shoes-categories-link {
+	font-size: 20px;
+	line-height: 42px;
+	text-decoration: none;
 }
 
 .shoes-categories-item:first-child .shoes-categories-image {		
@@ -234,4 +293,35 @@ h1, h2, h3 p {
 .shoes-categories-item:last-child .shoes-categories-image {		
 	background: url("../img/cat-3.jpg") no-repeat -40px 0;
 }
+
+.arrivals .section-title {
+	background-color: #ffffff;
+}
+
+.arrivals-list {
+	font-size: 0;
+}
+
+.shoes-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 280px;
+	margin-right: 20px;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.shoes-item:last-child {
+	margin-right: 0;
+}
+
+.shoes-item-image {
+	width: 280px;
+	height: 200px;
+}
+
+.shoes-item-image img {
+	height: 100%;
+}
+
 
