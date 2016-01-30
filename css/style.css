@@ -23,6 +23,11 @@ img {
 	clear: both;
 }
 
+h1, h2, p {
+	margin: 0;
+	padding: 0;
+}
+
 .header-top {
 	padding: 12px 0;
 	font-size: 14px;
@@ -48,5 +53,98 @@ img {
 }
 
 .header-bottom {
+	padding: 55px 0;
+	margin-bottom: 40px;
+	font-size: 0;
 	background-color: #f8f8f8;
+}
+
+.logo {	
+	display: inline-block;
+	vertical-align: middle;
+	width: 260px;
+	margin-right: 40px;
+	text-transform: uppercase;
+	color: #454545;
+}
+
+.company-name {
+	font-size: 48px;
+	line-height: 53px;
+	font-weight: 900;	
+}
+
+.logo span {
+	font-family: "Arial", sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+.bottom-nav {	
+	display: inline-block;
+	vertical-align: middle;
+	width: 585px;	
+	margin-right: 172px;
+	text-align: center;
+}
+
+.bottom-nav a {
+	position: relative;
+	margin-right: 46px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #454545;
+}
+
+.bottom-nav a:after {
+	position: absolute;
+	left: -25px;
+	bottom: 2px;
+	width: 2px;
+	height: 18px;
+	content: "";
+	background-color: #f56d6b;
+	transform: rotate(20deg);
+}
+
+.bottom-nav a:first-child:after {
+	background-color: transparent;
+}
+
+.cart {
+	display: inline-block;
+	vertical-align: middle;
+	width: 122px;
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 500;
+	color: #2a2b2c;
+}
+
+.items-count {
+	display: block;	
+}
+
+.intro-image {
+	padding: 82px 0;
+	padding-left: 90px; 
+	height: 520px;
+	background: 
+	url("../img/buller-logo.png") no-repeat 100% 50%,
+	url("../img/intro-bg.png") no-repeat 0 0;
+}
+
+.shoes-type {
+	padding: 0;
+	margin: 0;
+	font-family: "Oswald", "Arial", sans-serif;
+	font-size: 60px;
+	line-height: 90px;
+	font-weight: 700;
+	text-transform: uppercase;
+	list-style: none;
+	color: #ffffff;
 }
