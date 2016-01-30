@@ -193,6 +193,9 @@ h1, h2, h3, p {
 
 .shoes-categories {
 	background-color: #f5f6f1; 
+	border: 2px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
 }
 
 .section-header {	
@@ -309,6 +312,7 @@ h1, h2, h3, p {
 	margin-right: 20px;
 	font-size: 18px;
 	line-height: 25px;
+	font-weight: 500;
 }
 
 .shoes-item:last-child {
@@ -318,10 +322,50 @@ h1, h2, h3, p {
 .shoes-item-image {
 	width: 280px;
 	height: 200px;
+	margin-bottom: 17px;
 }
 
 .shoes-item-image img {
 	height: 100%;
 }
+
+.shoes-item-title {
+	margin-bottom: 7px;
+}
+
+.shoes-item .price {
+	display: block;
+	margin-bottom: 22px;
+	font-size: 20px;
+	line-height: 27px;
+	font-weight: 900;
+}
+
+.btn {
+	display: block;
+	width: 280px;
+	padding: 6px 0;
+	font-family: "Oswald", "Arial", sans-serif;
+	font-size: 20px;
+	line-height: 27px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff;
+	background-color: #463f3a;
+}
+
+.featured {
+	background-color: #f5f6f1; 
+	border: 2px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
+}
+
+.featured-list {
+	font-size: 0;
+}
+
+
 
 
