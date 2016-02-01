@@ -101,7 +101,7 @@ h1, h2, h3, p {
 	display: inline-block;
 	vertical-align: middle;
 	width: 260px;
-	margin-right: 40px;	
+	margin-right: 90px;	
 	text-transform: uppercase;	
 }
 
@@ -131,7 +131,7 @@ h1, h2, h3, p {
 	display: inline-block;
 	vertical-align: middle;
 	width: 585px;	
-	margin-right: 172px;
+	margin-right: 132px;
 	text-align: center;
 }
 
@@ -165,8 +165,7 @@ h1, h2, h3, p {
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
-	width: 112px;
-	/*padding-left: 10px;*/
+	width: 112px;	
 	font-size: 16px;
 	line-height: 25px;
 	font-weight: 500;
@@ -336,11 +335,15 @@ h1, h2, h3, p {
 	font-style: italic;	
 }
 
-.shoes-categories-link {
+.link {
+	text-decoration: none;
+	color: #f56d6b;
+}
+
+.shoes-categories .link {
 	font-size: 20px;
 	line-height: 42px;
-	font-weight: 700;
-	text-decoration: none;
+	font-weight: 700;	
 }
 
 .shoes-categories-item:first-child .shoes-categories-image {		
@@ -464,9 +467,8 @@ h1, h2, h3, p {
 	margin-bottom: 11px;
 }
 
-.post-link {	
-	font-weight: 700;
-	text-decoration: none;
+.post-item .link {	
+	font-weight: 700;	
 }
 
 .slogan {
@@ -489,7 +491,7 @@ h1, h2, h3, p {
 	line-height: 23px;	
 }
 
-.slogan-link {
+.slogan-text .link {
 	text-decoration: none;
 }
 
@@ -518,6 +520,81 @@ h1, h2, h3, p {
 	font-size: 14px;
 	line-height: 21px;
 	letter-spacing: -0.14;
+}
+
+.arrow-up {
+	position: relative;
+	display: block;
+	float: right;
+	width: 50px;
+	height: 50px;	
+	background-color: #3c3631;
+}
+
+.arrow-up:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;	
+	width: 20px;
+  height: 12px;
+  margin: -6px 0 0 -10px;
+  background: url("../img/spritesheet.png") no-repeat -5px -5px;
+}
+
+.bottom-footer {
+	padding: 15px 0;
+	background-color: #eeeeee;
+	color: #463f3a;
+}
+
+.social {
+	float: left;
+	width: 260px;
+}
+
+.social-btn {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 16px;
+	background: url("../img/spritesheet.png") no-repeat;
+}
+
+.rss {
+	width: 19px;
+  height: 19px;
+  background-position: -98px -75px;
+}
+
+.pinterest {
+	width: 23px;
+  height: 10px;
+  background-position: -98px -55px;
+}
+
+.facebook {
+	width: 9px;
+  height: 19px;
+  background-position: -97px -26px;
+}
+
+.twitter {
+	width: 21px;
+  height: 18px;
+  background-position: -52px -104px;
+}
+
+.dribble {
+	width: 22px;
+  height: 22px;
+  background-position: -66px -66px;
+}
+
+.design {
+	float: right;
+	width: 360px;
+	font-size: 16px;
+	line-height: 23px;
 }
 
 
