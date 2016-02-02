@@ -192,11 +192,23 @@ h1, h2, h3, p {
 }
 
 .intro-image {	
+	position: relative;
 	padding: 82px 0;
 	padding-left: 90px; 
 	margin-bottom: 40px;	
 	height: 356px;
 	background: url("../img/intro-bg.png") no-repeat 0 0;
+}
+
+.intro-image:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 160px;
+	margin: -80px 0 0 90px;
+	background: url("../img/buller-logo.png") no-repeat;
 }
 
 .shoes-type {
@@ -243,7 +255,7 @@ h1, h2, h3, p {
 }
 
 .red-mark {
-	color: #f56d6b;
+	color: #f55856;
 }
 
 .shoes-categories {
@@ -367,6 +379,7 @@ h1, h2, h3, p {
 }
 
 .shoes-item {
+	position: relative;
 	display: inline-block;
 	vertical-align: top;
 	width: 280px;
